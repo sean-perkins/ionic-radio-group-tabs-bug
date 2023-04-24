@@ -1,0 +1,46 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> Modern </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Modern</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-list>
+    <ion-radio-group id="first-group" value="huey">
+      <ion-item>
+        <ion-radio value="huey">Huey</ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-radio value="dewey">Dewey</ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-radio value="fooey" [disabled]="true">Fooey</ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-radio value="louie">Louie</ion-radio>
+      </ion-item>
+    </ion-radio-group>
+  </ion-list>
+  <ion-list>
+    <ion-radio-group id="second-group" value="huey">
+      <ion-item>
+        <ion-radio value="huey">Huey</ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-radio value="dewey">Dewey</ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-radio value="fooey" [disabled]="true">Fooey</ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-radio value="louie">Louie</ion-radio>
+      </ion-item>
+    </ion-radio-group>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,74 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> Legacy </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Legacy</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-list>
+    <ion-list-header>
+      <ion-label> Select a maintenance drone: </ion-label>
+    </ion-list-header>
+    <ion-radio-group id="first-group" value="huey">
+      <ion-item>
+        <ion-label>Huey</ion-label>
+        <ion-radio slot="start" value="huey"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Dewey</ion-label>
+        <ion-radio slot="start" value="dewey"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Fooey</ion-label>
+        <ion-radio
+          slot="start"
+          value="fooey"
+          color="secondary"
+          disabled
+        ></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Louie</ion-label>
+        <ion-radio slot="start" value="louie"></ion-radio>
+      </ion-item>
+    </ion-radio-group>
+  </ion-list>
+
+  <ion-list>
+    <ion-radio-group id="second-group" value="huey">
+      <ion-item>
+        <ion-label>Huey</ion-label>
+        <ion-radio slot="start" value="huey" color="danger"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Dewey</ion-label>
+        <ion-radio slot="start" value="dewey" color="secondary"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Fooey</ion-label>
+        <ion-radio
+          slot="start"
+          value="fooey"
+          color="secondary"
+          disabled
+        ></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Louie</ion-label>
+        <ion-radio slot="start" value="louie" color="tertiary"></ion-radio>
+      </ion-item>
+    </ion-radio-group>
+  </ion-list>
+</ion-content>
